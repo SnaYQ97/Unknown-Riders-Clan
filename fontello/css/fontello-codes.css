@@ -1,0 +1,8 @@
+
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-eye:before { content: '\e801'; } /* '' */
+.icon-users:before { content: '\e802'; } /* '' */
+.icon-link:before { content: '\e803'; } /* '' */
+.icon-gamepad:before { content: '\f11b'; } /* '' */
+.icon-user-plus:before { content: '\f234'; } /* '' */
+.icon-youtube:before { content: '\f313'; } /* '' */

@@ -1,0 +1,73 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+
+@media (min-width: 992px) {
+ /*s body {
+    padding-top: 56px;
+  }
+  header {
+    padding: 156px 0 100px;} */
+}
+
+section {
+  padding: 150px 0;
+}
+
+.logo{
+  max-width: 50px;
+  max-height: 50px;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+.masthead {
+  position: fixed;
+  width: 100%;
+  padding: 15rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url(../img/s3.jpg);
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url(../img/s3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h2 {
+    max-width: 30rem;
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 300px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+}

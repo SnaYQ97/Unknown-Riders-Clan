@@ -1,0 +1,14 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+ 
+RewriteEngine on
+RewriteRule strona-domowa-klanu-unknown-riders index.php
+RewriteRule historia-klanu-unknown-riders about.php
+RewriteRule dolacz-do-URClan join.php
+RewriteRule nasza-galeria galeria.php
+RewriteRule admin-tools admintools.php
+
+
