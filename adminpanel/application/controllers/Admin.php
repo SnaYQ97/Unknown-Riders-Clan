@@ -80,7 +80,7 @@ class Admin extends CI_Controller {
 
         /* public function test() {
                 $username = 'SnaYQ97';
-                $password = '[Chill]|97|';
+                $password = '';
                 $url = 'http://example.com';
                 $cookie="cookie.txt";
                 $postdata = "username=$username&userpass=$password&autologin=1&userlogin=Login";
